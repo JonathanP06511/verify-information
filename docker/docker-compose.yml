@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  verify-information:
+   build: ../verify-information
+   ports:
+     - 4001
+
+  
